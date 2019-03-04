@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/EmployeeManagerReact/precache-manifest.1f2b456c90839b8f25db183442d86160.js"
+  "/Ridwyn/EmployeeManagerReact/precache-manifest.3d3fde8eac4d38e9c030ca7bfd12e810.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/EmployeeManagerReact/index.html", {
+workbox.routing.registerNavigationRoute("/Ridwyn/EmployeeManagerReact/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
